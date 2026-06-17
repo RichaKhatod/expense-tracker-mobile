@@ -1,0 +1,37 @@
+name: expense_tracker
+description: Smart expense tracker with automatic SMS detection for Indian bank transactions.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # HTTP client
+  http: ^1.2.0
+
+  # Token/preference storage
+  shared_preferences: ^2.2.2
+
+  # State management
+  provider: ^6.1.2
+
+  # SMS inbox reading
+  flutter_sms_inbox: ^1.0.3
+
+  # Runtime permissions
+  permission_handler: ^11.3.1
+
+  # Date/number formatting
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
